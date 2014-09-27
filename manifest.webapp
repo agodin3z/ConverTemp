@@ -1,7 +1,7 @@
 {
   "version": "0.1",
-  "name": "TempConverter",
-  "description": "App para convertir unidades de temperatura ",
+  "name": "ConverTemp",
+  "description": "Conversor de unidades de temperatura ",
   "launch_path": "/index.html",
   "fullscreen": "false",
   "icons": {
@@ -9,10 +9,7 @@
   },
   "developer": {
     "name": "Andres Godinez",
-    "url": "https://mozillians.org/en-US/u/AGodinez/",
-    "repository": {
-      "url": "https://github.com/AGodinez/TempConverter.git"
-    }
+    "url": "https://mozillians.org/en-US/u/AGodinez/"
   },
   "default_locale": "es"
 }

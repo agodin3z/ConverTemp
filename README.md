@@ -1,13 +1,13 @@
-TempConverter
+[ConverTemp](https://marketplace.firefox.com/app/convertemp/)
 =============
 
-![TempConverter](./images/icon.png)
+![ConverTemp](./images/icon.png)
 
 Conversor de unidades de temperatura para FirefoxOS, **Version 0.1**
 
 ## Lenguaje y Librerías ##
 * HTML5
-* JQuery Mobile
+* JQuery Mobile 1.3.2
 * JavaScript
 
 ## Desarrollador ##
@@ -15,3 +15,7 @@ Conversor de unidades de temperatura para FirefoxOS, **Version 0.1**
 
 ## Licencia ##
 * Mozilla Public License 2.0
+
+## Clasificación ##
+
+![EVERYONE](https://www.globalratings.com/Common/Images/ratingsymbol_e.png)

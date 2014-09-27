@@ -1,5 +1,5 @@
-function convertir(){
-  var grados=document.getElementById('grados').value,
+$("#Convertir").bind("click", function() {
+   var grados=document.getElementById('grados').value,
       lon = document.getElementById('grados').value.length;
   
   grados=parseFloat(grados);
@@ -20,5 +20,4 @@ function convertir(){
   } else {
     alert("No ha ingresado ningun valor");
   }
-};
-
+});
