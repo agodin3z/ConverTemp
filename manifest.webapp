@@ -12,4 +12,14 @@
     "url": "https://mozillians.org/en-US/u/AGodinez/"
   },
   "default_locale": "es"
+  "locales": {
+    "cs": {
+        "name" : "Český překlad",
+        "description" : "Přeloženo s úsměvem :D"
+    },
+    "en": {
+        "name" : "English translation",
+        "description" : "Transalted with smile :D"
+    }
+}
 }

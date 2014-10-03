@@ -1,3 +1,5 @@
+var _ = document.webL10n.get;
+
 $("#Convertir").bind("click", function() {
    var grados=document.getElementById('grados').value,
       lon = document.getElementById('grados').value.length;
@@ -18,6 +20,7 @@ $("#Convertir").bind("click", function() {
       alert(kc + "\n\n" + kf);
     }
   } else {
-    alert("No ha ingresado ningun valor");
+    alert(_("no-val"));
   }
 });
+
