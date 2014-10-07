@@ -11,5 +11,15 @@
     "name": "Andres Godinez",
     "url": "https://mozillians.org/en-US/u/AGodinez/"
   },
-  "default_locale": "es"
+  "default_locale": "es",
+  "locales": {
+	"cs": {
+    	    "name" : "ConverTemp",
+            "description" : "Převaděč jednotek teplot"
+	},
+        "en": {
+	    "name" : "ConverTemp",
+    	    "description" : "Convertor of units of temperature"
+        }
+    }
 }
