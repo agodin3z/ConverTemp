@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" /> 
         <link rel="resource" type="application/l10n" href="locales/locales.ini" />
         <title></title> 
         <!-- CSS -->
@@ -11,7 +11,7 @@
     <body> 
 
         <div data-role="page" id="menu">
-            <div data-role="header" data-position="fixed" id="header" data-theme="a">
+            <div data-role="header" data-position="fixed" id="header" data-theme="b">
                 <h3 href="about.html">ConverTemp</h3> 
                 <a href="about.html" data-icon="info" class="ui-btn-right" data-l10n-id="about">About</a>
             </div>
@@ -25,18 +25,18 @@
                     <!-- Radio Buttons -->
                     <fieldset data-role="controlgroup">
                         <legend data-l10n-id="seleccione-la-unidad">Seleccione la unidad:</legend>
-                        <input type="radio" name="radio-choice" id="radio-choice-1" data-theme="a" value="celsius" checked="checked" />
-                        <label for="radio-choice-1">Celsius</label>
+                        <input type="radio" name="radio-choice" id="radio-choice-1" data-theme="b" value="celsius" checked="checked" />
+                        <label for="radio-choice-1" data-l10n-id="celsius">Celsius</label>
 
-                        <input type="radio" name="radio-choice" id="radio-choice-2" data-theme="a" value="farenheith"  />
-                        <label for="radio-choice-2">Farenheith</label>
+                        <input type="radio" name="radio-choice" id="radio-choice-2" data-theme="b" value="farenheith"  />
+                        <label for="radio-choice-2" data-l10n-id="farenheith">Farenheith</label>
 
-                        <input type="radio" name="radio-choice" id="radio-choice-3" data-theme="a" value="kelvin"  />
-                        <label for="radio-choice-3">Kelvin</label>
+                        <input type="radio" name="radio-choice" id="radio-choice-3" data-theme="b" value="kelvin"  />
+                        <label for="radio-choice-3" data-l10n-id="kelvin">Kelvin</label>
                     </fieldset>
                     <!-- Botones -->
-                    <button type="button" data-icon="check" value="Convertir" id="Convertir" data-theme="a" data-l10n-id="convertir">Convertir</button>
-                    <button type="reset" data-icon="delete" data-theme="a" value="Limpiar" id="limpiar" data-l10n-id="limpiar">Limpiar</button>
+                    <button type="button" data-icon="check" value="Convertir" id="Convertir" data-theme="b" data-l10n-id="convertir">Convertir</button>
+                    <button type="reset" data-icon="delete" data-theme="b" value="Limpiar" id="limpiar" data-l10n-id="limpiar">Limpiar</button>
                 </form>   
             </div>
         </div>
@@ -44,7 +44,7 @@
         <!-- Scripts JS -->
         <script src="js/jquery-1.11.1.min.js"></script>
         <script src="js/jquery.mobile-1.4.4.min.js"></script>
-        <script src="js/l10n.js"></script>
+        <script defer src="js/l10n.js" charset="utf-8"></script>
         <script type="text/javascript" src="js/calcular.js"></script>
     </body>
 </html>
