@@ -26,6 +26,6 @@ Conversor de unidades de temperatura para Firefox OS, **Version 1.0**
 ## Release ##
 
 ```
-- **Version 1.0:** Traducción al idioma checo e inglés, actualizacion de JQuery y JQuery Mobile.
-- **Version 0.1:** App para convertir unidades de temperatura, JQuery 1.7.2 y JQuery Mobile 1.3.2
+- Version 1.0: Traducción al idioma checo e inglés, actualizacion de JQuery y JQuery Mobile.
+- Version 0.1: App para convertir unidades de temperatura, JQuery 1.7.2 y JQuery Mobile 1.3.2
 ```

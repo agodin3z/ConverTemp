@@ -24,6 +24,8 @@
         "name" : "ConverTemp",
         "description" : "Temperature units converter, with support for Czech and English languages ​​thanks to Víězslav 'Vitex' Dvoák"
     }
-  }
-  
+  },
+  "messages": [
+    { "alarm": "/index.html" }
+  ]
 }
