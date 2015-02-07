@@ -1,7 +1,7 @@
 {
-  "version": "1.0",
-  "name": "ConverTemp",
-  "description": "Conversor de unidades de temperatura, con soporte para idiomas en checo e inglés gracias a Víězslav 'Vitex' Dvoák",
+  "version": "0.1",
+  "name": "TempConverter",
+  "description": "App para convertir unidades de temperatura ",
   "launch_path": "/index.html",
   "fullscreen": "false",
   "icons": {
@@ -9,23 +9,10 @@
   },
   "developer": {
     "name": "Andres Godinez",
-    "url": "https://mozillians.org/en-US/u/AGodinez/"
-  },
-  "default_locale": "es",
-  "installs_allowed_from": [
-    "*"
-  ],
-  "locales": {
-    "cs": {
-        "name" : "ConverTemp",
-        "description" : "Teplotní konvertor jednotek, s podporou pro české a anglické verzi, díky Víězslav 'Vitex' Dvoák"
-    },
-    "en": {
-        "name" : "ConverTemp",
-        "description" : "Temperature units converter, with support for Czech and English languages ​​thanks to Víězslav 'Vitex' Dvoák"
+    "url": "https://mozillians.org/en-US/u/AGodinez/",
+    "repository": {
+      "url": "https://github.com/AGodinez/TempConverter.git"
     }
   },
-  "messages": [
-    { "alarm": "/index.html" }
-  ]
+  "default_locale": "es"
 }
