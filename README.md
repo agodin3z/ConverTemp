@@ -1,6 +1,8 @@
 [ConverTemp](https://marketplace.firefox.com/app/convertemp/)
 =============
 
+[![Join the chat at https://gitter.im/AGodinez/ConverTemp](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AGodinez/ConverTemp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ![ConverTemp](./images/icon.png)
 
 Conversor de unidades de temperatura para Firefox OS, **Version 1.0**
