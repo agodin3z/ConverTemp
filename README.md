@@ -21,7 +21,7 @@ Conversor de unidades de temperatura para Firefox OS, **Version 1.0**
 
 ## Clasificación ##
 
-![EVERYONE](https://www.globalratings.com/Common/Images/ratingsymbol_e.png)
+![EVERYONE](./images/esbr.png)
 
 ## Release Notes ##
 
